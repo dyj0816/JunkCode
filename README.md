@@ -8,10 +8,10 @@
 ```
 buildscript {
     repositories {
-        mavenCentral()
+        maven { url 'https://jitpack.io' }
     }
     dependencies {
-        classpath "com.github.qq549631030:android-junk-code:1.1.2"
+        classpath 'com.github.dyj0816:JunkCode:Tag'
     }
 }
 ```
